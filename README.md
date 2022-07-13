@@ -27,7 +27,7 @@ At the beginning of the `main.py` and `main_reg.py` files, you can find example 
 We give one example here:
 ```bash
 mkdir data results checkpoints 
-python main.py --dataset=MNIST_baseline --model=ResNet18 --num_parties=10 --split_method=by_class --ground-truth --seed=0 --gpu=0
+python main.py --dataset=MNIST_baseline --model=ResNet18 --num_parties=10 --split_method=by_class --seed=0 --gpu=0
 ```
 
 ## Other methods
